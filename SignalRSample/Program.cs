@@ -43,6 +43,6 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
 
-app.MapHub<UserHub>("/hubs/user");
+app.MapHub<UserHub>("/hubs/userCount");
 
 app.Run();
